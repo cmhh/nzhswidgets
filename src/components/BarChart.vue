@@ -225,7 +225,6 @@ const chartData = computed(() => {
 })
 
 const updateChart = function() {
-  console.log(chartData.value)
   Highcharts.chart(chartContainer.value, chartData.value)
 }
 

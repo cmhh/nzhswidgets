@@ -24,7 +24,7 @@ import CircleTab from './components/CircleTab.vue'
     :categories='["almost certain / a high chance", "a medium chance", "a low chance", "almost no chance", "don&#39;t know"]'
     xlab="Self-assessed likelihood of losing job or business in next 12 months"
     ylab="Percent"
-  />
+  /> 
 
   <p>Pig shank meatloaf pork chop jerky flank kielbasa, spare ribs ball tip bresaola shoulder. Pancetta pastrami alcatra cupim ground round. Pork sirloin doner pig. Shankle corned beef ball tip capicola, pork loin turkey landjaeger biltong cupim. Doner tenderloin drumstick leberkas sausage ground round cupim t-bone andouille meatball. Chicken short ribs cow leberkas filet mignon rump pork loin shank shankle sirloin tri-tip tail pig bacon. Shankle jerky short ribs tongue rump pig strip steak beef shank leberkas salami.</p>
 
