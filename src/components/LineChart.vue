@@ -50,8 +50,8 @@ const props = defineProps({
     default: null
   },
   height: {
-    type: Number,
-    default: 400
+    type: String,
+    default: "400px"
   },
   width: {
     type: Number,

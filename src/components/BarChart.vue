@@ -51,8 +51,8 @@ const props = defineProps({
     default: null
   },
   height: {
-    type: Number,
-    default: 400
+    type: String,
+    default: "400px"
   },
   width: {
     type: Number,
@@ -160,14 +160,17 @@ const chartPlotOptions = computed(() => {
 })
 
 const chartChart = computed(() => {
-  return {
+  const chart = {
     zoomType: 'xy',
     height: props.height,
-    width: props.width,
     style: {
       fontFamily: "Poppins, Lato, sans-serif"
     }
   }
+
+  if (props.width) chart.width = props.width
+  
+  return chart
 })
 
 const chartCredits = computed(() => {
@@ -222,6 +225,7 @@ const chartData = computed(() => {
 })
 
 const updateChart = function() {
+  console.log(chartData.value)
   Highcharts.chart(chartContainer.value, chartData.value)
 }
 
