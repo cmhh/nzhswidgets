@@ -6,6 +6,7 @@ import 'highcharts/highcharts-more';
 import 'highcharts/modules/exporting';
 import 'highcharts/modules/export-data';
 import 'highcharts/modules/accessibility';
+import 'highcharts/themes/adaptive'
 
 Highcharts.setOptions({
   lang: {
