@@ -154,7 +154,8 @@ const chartChart = computed(() => {
     width: props.width,
     style: {
       fontFamily: "Poppins, Lato, sans-serif"
-    }
+    },
+    styledMode: true
   }
 })
 

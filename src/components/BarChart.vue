@@ -166,7 +166,8 @@ const chartChart = computed(() => {
     height: props.height,
     style: {
       fontFamily: "Poppins, Lato, sans-serif"
-    }
+    },
+    styledMode: true
   }
 
   if (props.width) chart.width = props.width
